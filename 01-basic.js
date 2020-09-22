@@ -21,9 +21,9 @@ console.log(testVar, testLet, TEST_CONST);
 testVar = "var changed";
 testLet = "let changed";
 // TEST_CONST = "constant changed"; -> 재할당 불가
-// const는 선언과 동시에 할당해야 한다
+// const는 선언과 동시에 할당해야 한다.
 
-// typeof : 동적 타이핑 언어 -> 실제 객체의 타입을 확인해야 한다
+// typeof : 동적 타이핑 언어 -> 실제 객체의 타입을 확인해야 한다.
 let v = "JavaScript"; // 데이터 타입이 할당과 동시에 결정
 console.log("v ->", v, "type ->", typeof v);
 v = 2020;   // 다른 타입의 할당이 가능
