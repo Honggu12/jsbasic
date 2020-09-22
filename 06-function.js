@@ -21,7 +21,7 @@ console.log(typeof csum, // function
 })(2020);
 
 //  함수의 매개변수
-//  자바스크립트는 매개변수를 선언하지 않아도 함수로 전달되는 모든 이수가
+//  자바스크립트는 매개변수를 선언하지 않아도 함수로 전달되는 모든 인수가
 //  arguments 배열로 전달
 function getTotal() {   //  매개변수 선언 없음
     // console.log("전달된 인수:", arguments);
